@@ -90,7 +90,7 @@
          if (button == 'pressPlus') {
             totalProduct = productNumber + 1;
          }
-         if (button == 'pressMinus') {
+         if (button == 'pressMinus' && productNumber > 0) {
             totalProduct = productNumber - 1;
          }
          productAmount.value = totalProduct;
